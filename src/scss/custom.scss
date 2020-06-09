@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+/* --------Begin Customization--------- */
+
+/* Change the primary theme color to a custom red */
+$theme-colors: (
+	"aaron-primary": #C51414
+);
+
+/* --------End Customization------------ */
+
+@import "bootstrap";
+
+/*@import "../../../node_modules/bootstrap/scss/bootstrap.scss" */
+
