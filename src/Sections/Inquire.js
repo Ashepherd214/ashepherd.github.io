@@ -2,7 +2,7 @@ import React from 'react'
 import { Form } from 'react-bootstrap'
 
 const Inquire = () => (
-	<div>
+	<div style={{ align: "center" }}>
 		<h3>What can I help you with?</h3>
 		<Form>
 			<Form.Group controlId="inquireForm">

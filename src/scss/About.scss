@@ -6,10 +6,18 @@
 
 /* Change the primary theme color to a custom red */
 $theme-colors: (
-	"aaron-primary": #333333,
-	"aaron-secondary": #31637f,
+	"aaron-primary": #C51414
 );
 
+.responsive {
+	padding: 5px 20px 5px 0;
+	width: 100%;
+
+}
+
+p {
+	color: #ffffff
+}
 /* --------End Customization------------ */
 
 @import "bootstrap";

@@ -4,7 +4,7 @@ import Container, {Navbar, Nav} from 'react-bootstrap'
 //import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Menu = () => (
-	<Navbar bg="dark" expand="lg">
+	<Navbar sticky="top" className="bg-aaron-primary text-aaron-secondary" expand="lg">
 		<Navbar.Brand href="#home">
 			<img
 				src={require("../components/images/Aaron.jpg")}
